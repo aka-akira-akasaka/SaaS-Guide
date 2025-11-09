@@ -1,0 +1,23 @@
+
+{
+  "manifest_version": 3,
+  "name": "SaaS AI Guide",
+  "version": "1.0",
+  "description": "An AI-powered assistant that provides real-time guidance for SaaS applications. It analyzes your current screen and answers your questions to streamline your workflow and reduce learning curves.",
+  "permissions": [
+    "storage",
+    "activeTab"
+  ],
+  "side_panel": {
+    "default_path": "index.html"
+  },
+  "action": {
+    "default_title": "Open SaaS AI Guide"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_security_policy": {
+    "extension_pages": "script-src 'self' https://aistudiocdn.com; object-src 'self'"
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "name": "SaaS AI Guide",
+  "description": "An AI-powered assistant that provides real-time guidance for SaaS applications. It analyzes your current screen and answers your questions to streamline your workflow and reduce learning curves.",
+  "requestFramePermissions": []
+}
